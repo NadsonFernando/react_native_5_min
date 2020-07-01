@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Loader from './src/components/Loader';
+import SearchBar from './src/components/SearchBar';
 import {Container} from './styles';
 
 export default function App() {
   return (
     <Container>
-      <Loader />
+      <SearchBar />
     </Container>
   );
 }
